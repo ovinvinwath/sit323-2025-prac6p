@@ -26,6 +26,6 @@
 If you are denied access to the application on the webpage or get a 403/404 error, it's most likely that you may need to push this code to Docker Hub.
 -	Log in to Docker Hub via browser or type “docker login” on your terminal
 -	Create a new public repository called sit323-2025-prac5p-app
--	On your terminal, type "docker push docker push <your docker hub username>/sit323-2025-prac5p-app:<tagname>"
+-	On your terminal, type "docker push docker push <your docker hub username>/sit323-2025-prac5p-app:[tagname]"
 -	You can use the tagname “latest”
 -	Now, try accessing the app on your browser.
